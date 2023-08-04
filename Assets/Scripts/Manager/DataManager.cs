@@ -4,6 +4,8 @@ using UnityEngine;
 public class DataManager : Manager<DataManager>
 {
     string path;
+    public Collecterinfo[] collecterInfos;
+    int collecterCount = 10;
     public void SaveItemJson()
     {
         path = Path.Combine(Application.dataPath + "/Json/", "ItemData.json") ?? null;
@@ -33,9 +35,9 @@ public class DataManager : Manager<DataManager>
 
         CollecterData data = new CollecterData();
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 20; i++)
         {
-            Collecter collecter = new Collecter("name","image","text","backgroundName");
+            Collecterinfo collecter = new Collecterinfo("name","image","text","backgroundName");
             data.collecters[i] = collecter;
         }
         string jsonData = JsonUtility.ToJson(data, true);
@@ -66,10 +68,15 @@ public class DataManager : Manager<DataManager>
         string jsonData = File.ReadAllText(path);
         Debug.Log(jsonData);
 
-        CollecterData collecterData = JsonUtility.FromJson<CollecterData>(jsonData);
+         CollecterData collecterData = JsonUtility.FromJson<CollecterData>(jsonData);
+        collecterInfos = new Collecterinfo[20];
+        // 이거 시발 먼데
+        for (int i = 0; i < collecterCount; i++)
+        {
+            collecterInfos[i] = collecterData.collecters[i];
+        }
+        
 
-
-        //ItemManager.Instance.GenerateItem(collecterData);
     }
 
 }

@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class ItemData
@@ -31,3 +32,29 @@ public struct ItemStruct
     }
 }
 
+[Serializable]
+public class CollecterData
+{
+    public Collecterinfo[] collecters;
+    public CollecterData()
+    {
+        collecters = new Collecterinfo[20];
+    }
+}
+
+[Serializable]
+public class Collecterinfo
+{
+    public string collecterName;
+    public string collecterImage;
+    public string collecterText;
+    public string collecterBackground;
+    public Collecterinfo(string name, string image, string text, string background)
+    {
+        collecterName = name;
+        collecterImage = image;
+        collecterText = text;
+        collecterBackground = background;
+    }
+    //이미지, 대사, 배경, 배경없으면 예외처리
+}
