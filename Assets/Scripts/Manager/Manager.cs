@@ -1,18 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public abstract class Manager<T> : MonoBehaviour where T : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static T _instance;
 
-    // Update is called once per frame
-    void Update()
+    public static T Instance
     {
-        
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType(typeof(T)) as T;
+                Debug.Log(_instance);
+                if (_instance == null )
+                {
+                    Debug.Log("null");
+
+                }
+                Debug.Log("인스턴스 부착");
+            }
+
+            return _instance;
+        }
     }
 }

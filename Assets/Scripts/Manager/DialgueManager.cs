@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class DialgueManager : MonoBehaviour
+public class DialgueManager : Manager<DialgueManager>
 {
     // Start is called before the first frame update
     void Start()

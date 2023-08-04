@@ -1,0 +1,70 @@
+{
+    "collecters": [
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "name",
+            "collecterImage": "image",
+            "collecterText": "text",
+            "collecterBackground": "backgroundName"
+        },
+        {
+            "collecterName": "",
+            "collecterImage": "",
+            "collecterText": "",
+            "collecterBackground": ""
+        }
+    ]
+}
