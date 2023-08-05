@@ -7,6 +7,7 @@ public class Collecter : MonoBehaviour
 {
     CuriosCollect curiosCollect = null;
     Collecterinfo info = null;
+    public TextMeshProUGUI textMeshProUGUI = null;
 
 
     public void Start()
@@ -38,7 +39,9 @@ public class Collecter : MonoBehaviour
         if (this.transform.GetChild(2).GetChild(0)
             .TryGetComponent<TextMeshProUGUI>(out TextMeshProUGUI dialouge))
         {
-            dialouge.text = info.collecterText;
+            textMeshProUGUI = dialouge;
+            DialgueManager.Instance.SetTMP(textMeshProUGUI);
+            DialgueManager.Instance.StartDialogue(info.collecterText);
         }
         else Debug.LogError("Not Setted Object You're null!!");
 
@@ -46,10 +49,10 @@ public class Collecter : MonoBehaviour
         if (this.transform.GetChild(1).TryGetComponent<Image>(out Image collecterImage))
         {
 
-            collecterImage.sprite = Resources.Load<Sprite>(Path.Combine("BuffCardResource/", info.collecterImage));
+            collecterImage.sprite = Resources.Load<Sprite>(Path.Combine("Image/", info.collecterImage));
             if (collecterImage.sprite == null)
             {
-                Debug.Log($"There is no resource__{info.collecterImage} at: " + Path.Combine(Application.dataPath + "/BuffCardResource/", ""));
+                Debug.Log($"There is no resource__{info.collecterImage} at: " + Path.Combine("Image/", info.collecterImage));
             }
         }
         else
@@ -60,10 +63,10 @@ public class Collecter : MonoBehaviour
         if (this.transform.GetChild(0).TryGetComponent<Image>(out Image backImage))
         {
 
-            backImage.sprite = Resources.Load<Sprite>(Path.Combine("BuffCardResource/", info.collecterBackground));
+            backImage.sprite = Resources.Load<Sprite>(Path.Combine("Image/", info.collecterBackground));
             if (backImage.sprite == null)
             {
-                Debug.Log($"There is no resource__{info.collecterBackground} at: " + Path.Combine(Application.dataPath + "/BuffCardResource/", ""));
+                Debug.Log($"There is no resource__{info.collecterBackground} at: " + Path.Combine("Image/", info.collecterBackground));
             }
         }
         else

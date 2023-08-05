@@ -1,6 +1,3 @@
-using System.Diagnostics;
-using System.Drawing;
-using UnityEngine;
 
 public class GearGenerator : ItemGenerator
 {

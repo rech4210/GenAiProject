@@ -49,13 +49,14 @@ public class DataManager : Manager<DataManager>
     public void JsonItemParsing()
     {
 
-        path = Path.Combine(Application.dataPath + "/Json/", "ItemData.json");
+        //path = Path.Combine("/Json/", "ItemData.json");
+        TextAsset txt = Resources.Load<TextAsset>("Json/ItemData");
+        Debug.Log(txt);
 
-        string jsonData = File.ReadAllText(path);
-        Debug.Log(jsonData);
+        //string jsonData = File.ReadAllText(path);
+        //Debug.Log(jsonData);
 
-        ItemData itemData = JsonUtility.FromJson<ItemData>(jsonData);
-
+        ItemData itemData = JsonUtility.FromJson<ItemData>(txt.text);
 
         ItemManager.Instance.GenerateItem(itemData);
     }
@@ -63,17 +64,20 @@ public class DataManager : Manager<DataManager>
     public void JsonCollecterParsing()
     {
 
-        path = Path.Combine(Application.dataPath + "/Json/", "CollecterData.json");
+        //path = Path.Combine("/Json/", "CollecterData.json");
+        TextAsset txt = Resources.Load<TextAsset>("Json/CollecterData");
+        Debug.Log(txt);
+        //string jsonData = File.ReadAllText(path);
+        //Debug.Log(jsonData);
 
-        string jsonData = File.ReadAllText(path);
-        Debug.Log(jsonData);
-
-         CollecterData collecterData = JsonUtility.FromJson<CollecterData>(jsonData);
+        CollecterData collecterData = JsonUtility.FromJson<CollecterData>(txt.text);
         collecterInfos = new Collecterinfo[20];
         // 이거 시발 먼데
         for (int i = 0; i < collecterCount; i++)
         {
+
             collecterInfos[i] = collecterData.collecters[i];
+            Debug.Log(collecterInfos[i].collecterText);
         }
         
 

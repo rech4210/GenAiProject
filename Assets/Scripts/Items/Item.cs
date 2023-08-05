@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public abstract class Item
 {
     public int code;
