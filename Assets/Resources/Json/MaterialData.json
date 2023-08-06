@@ -1,0 +1,77 @@
+﻿{
+    "materials": [        
+        {
+            "code": 0,
+            "price": 10,
+            "name": "철",
+            "Image": "Iron"
+        },
+        {
+            "code": 1,
+            "price": 10,
+            "name": "목재",
+            "Image": "Wood"
+        },
+        {
+            "code": 2,
+            "price": 15,
+            "name": "용사의 강철",
+            "Image": "KnightSteel"
+        },
+        {
+            "code": 3,
+            "price": 30,
+            "name": "흑요석 결정",
+            "Image": "ObsidianCrystal"
+        },
+        {
+            "code": 4,
+            "price": 100,
+            "name": "드래곤의 비늘",
+            "Image": "DragonScale"
+        },
+        {
+            "code": 5,
+            "price": 10,
+            "name": "가죽",
+            "Image": "Leather"
+        },
+        {
+            "code": 6,
+            "price": 15,
+            "name": "요정의 날개",
+            "Image": "FairyWing"
+        },
+        {
+            "code": 7,
+            "price": 30,
+            "name": "저항의 크리스탈",
+            "Image": "ResCrystal"
+        },
+        {
+            "code": 8,
+            "price": 5,
+            "name": "빈병",
+            "Image": "EmptyBottle"
+        },
+        {
+            "code": 9,
+            "price": 10,
+            "name": "신성한 꽃잎",
+            "Image": "SacredFlower"
+        },
+        {
+            "code": 10,
+            "price": 20,
+            "name": "악마의 독방울",
+            "Image": "DevilPoison"
+        },
+        {
+            "code": 11,
+            "price": 30,
+            "name": "요정의 신비한 버섯",
+            "Image": "FairyMysticMushroom"
+        }
+    ]
+}
+

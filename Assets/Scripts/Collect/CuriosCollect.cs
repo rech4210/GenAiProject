@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CuriosCollect : MonoBehaviour
 {
@@ -7,7 +9,7 @@ public class CuriosCollect : MonoBehaviour
     public int itemCount;
 
     Item[] items;
-    Collecterinfo[] collecterinfos = new Collecterinfo[20];
+    Collecterinfo[] collecterinfos;
     Collecter collecter = null;
     void BuyItem(int itemPrice)
     {
@@ -20,14 +22,19 @@ public class CuriosCollect : MonoBehaviour
         items = ItemManager.Instance.items;
         collecterinfos = DataManager.Instance.collecterInfos;
         collecter = transform.GetChild(0).gameObject.AddComponent<Collecter>();
-        collecter.Start();
-        //DataManager.Instance.JsonItemParsing();
+        collecter.Init();
+
         //여기서 개체 생성하고 가져오기 후 저지
     }
 
     public Collecterinfo GetCollectInfo()
     {
-        return collecterinfos[Random.Range(0, 10)];
+        if (collecterinfos == null)
+        {
+            collecterinfos = DataManager.Instance.collecterInfos;
+        }
+        Debug.Log(collecterinfos.Length);
+        return collecterinfos[Random.Range(0,collecterinfos.Length)];
         //exclusive
     }
 

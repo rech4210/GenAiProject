@@ -1,124 +1,16 @@
 {
     "collecters": [
         {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world, ",
-            "collecterBackground": "test_back"
+            "collecterName": "Celesta",
+            "collecterImage": "Celesta_I",
+            "collecterText": "How are you?",
+            "collecterBackground": "Celesta_B"
         },
         {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
-        },
-        {
-            "collecterName": "name",
-            "collecterImage": "test",
-            "collecterText": "hello world, hello world, hello world, hello world, hello world, hello world, hello world, hello world,",
-            "collecterBackground": "test_back"
+            "collecterName": "Jakarias",
+            "collecterImage": "Jakarias_I",
+            "collecterText": ".... I hope Good One...",
+            "collecterBackground": "Celesta_B"
         }
     ]
 }

@@ -1,804 +1,889 @@
-{
+﻿{
     "items": [
         {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
+            "code": 0,
+            "price": 30,
+            "honor": 0,
+            "grade": 0,
+            "name": "검",
+            "Image": "sword",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 검이다.",
+            "recipe": {
+                "recipeCode": 0,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 1,
+            "price": 45,
+            "honor": 0,
+            "grade": 0,
+            "name": "도끼",
+            "Image": "axe",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 도끼다.",
+            "recipe": {
+                "recipeCode": 1,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 2,
+            "price": 30,
+            "honor": 0,
+            "grade": 0,
+            "name": "활",
+            "Image": "bow",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 활이다.",
+            "recipe": {
+                "recipeCode": 2,
+                "ingredientArray": [
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    }
+                ]
+            }
+        },
+        {
+            "code": 3,
+            "price": 45,
+            "honor": 0,
+            "grade": 0,
+            "name": "창",
+            "Image": "spear",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 창이다.",
+            "recipe": {
+                "recipeCode": 3,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    }
+                ]
+            }
+        },
+        {
+            "code": 4,
+            "price": 70,
+            "honor": 1,
+            "grade": 1,
+            "name": "용사의 검",
+            "Image": "KnightSword",
+            "description": "과거 어떤 용사가 사용했다는 검이다.",
+            "recipe": {
+                "recipeCode": 4,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 2,
+                        "needCount": 1
+                    }
+                ]
+            }
         },
         {
             "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 5,
-            "price": 5,
-            "honor": 5,
-            "grade": 5,
-            "Image": "image",
-            "description": "description"
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
-        },
-        {
-            "code": 0,
-            "price": 0,
-            "honor": 0,
-            "grade": 0,
-            "Image": "",
-            "description": ""
+            "price": 90,
+            "honor": 1,
+            "grade": 1,
+            "name": "용사의 도끼",
+            "Image": "KnightAxe",
+            "description": "과거 어떤 용사가 사용했다는 도끼다.",
+            "recipe": {
+                "recipeCode": 5,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 2,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 6,
+            "price": 70,
+            "honor": 1,
+            "grade": 1,
+            "name":  "용사의 활",
+            "Image": "KnightBow",
+            "description": "과거 어떤 용사가 사용했다는 활이다.",
+            "recipe": {
+                "recipeCode": 6,
+                "ingredientArray": [
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 2,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 7,
+            "price": 90,
+            "honor": 1,
+            "grade": 1,
+            "name": "용사의 창",
+            "Image": "KnightSpear",
+            "description": "과거 어떤 용사가 사용했다는 창이다. ",
+            "recipe": {
+                "recipeCode": 7,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 2,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 8,
+            "price": 125,
+            "honor": 2,
+            "grade": 2,
+            "name": "어둠의 검",
+            "Image": "DarknessSword",
+            "description": "사용자가 타락할지도 모르는 어둠의 기운이 담긴 검이다. ",
+            "recipe": {
+                "recipeCode": 8,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 3,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 9,
+            "price": 150,
+            "honor": 2,
+            "grade": 2,
+            "name": "어둠의 도끼",
+            "Image": "DarknessAxe",
+            "description": "사용자가 타락할지도 모르는 어둠의 기운이 담긴 도끼다. ",
+            "recipe": {
+                "recipeCode": 9,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 3,
+                        "needCount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "code": 10,
+            "price": 125,
+            "honor": 2,
+            "grade": 2,
+            "name": "어둠의 활",
+            "Image": "DarkNessBow",
+            "description": "사용자가 타락할지도 모르는 어둠의 기운이 담긴 활이다. ",
+            "recipe": {
+                "recipeCode": 10,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 0
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 3,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 11,
+            "price": 150,
+            "honor": 2,
+            "grade": 2,
+            "name": "어둠의 창",
+            "Image": "DarknessSpear",
+            "description": "사용자가 타락할지도 모르는 어둠의 기운이 담긴 창이다. ",
+            "recipe": {
+                "recipeCode": 11,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 3,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 12,
+            "price": 360,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 검",
+            "Image": "DragonSword",
+            "description": "강력한 드래곤의 비늘로 만든 검이다.",
+            "recipe": {
+                "recipeCode": 12,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 13,
+            "price": 390,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 도끼",
+            "Image": "DragonAxe",
+            "description": "강력한 드래곤의 비늘로 만든 도끼다.",
+            "recipe": {
+                "recipeCode": 13,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 14,
+            "price": 360,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 활",
+            "Image": "DragonBow",
+            "description": "강력한 드래곤의 비늘로 만든 활이다.",
+            "recipe": {
+                "recipeCode": 14,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 0
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 15,
+            "price": 390,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 창",
+            "Image": "DragonSpear",
+            "description": "강력한 드래곤의 비늘로 만든 창이다.",
+            "recipe": {
+                "recipeCode": 15,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 2
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 16,
+            "price": 15,
+            "honor": 0,
+            "grade": 0,
+            "name": "부츠",
+            "Image": "Boots",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 부츠다.",
+            "recipe": {
+                "recipeCode": 16,
+                "ingredientArray": [                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 1,
+                        "needCount": 0
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 17,
+            "price": 30,
+            "honor": 0,
+            "grade": 0,
+            "name": "글러브",
+            "Image": "Glove",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 글러브다.",
+            "recipe": {
+                "recipeCode": 17,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 18,
+            "price": 60,
+            "honor": 0,
+            "grade": 0,
+            "name": "방패",
+            "Image": "Shield",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 방패다.",
+            "recipe": {
+                "recipeCode": 18,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 19,
+            "price": 60,
+            "honor": 0,
+            "grade": 0,
+            "name": "갑옷",
+            "Image": "Chestplate",
+            "description": "모험을 시작하는 용사가 장착하기에 좋은 갑옷이다.",
+            "recipe": {
+                "recipeCode": 19,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 20,
+            "price": 50,
+            "honor": 1,
+            "grade": 1,
+            "name": "요정의 부츠",
+            "Image": "FairyBoots",
+            "description": "요정의 기운이 깃들어 있는 부츠다.",
+            "recipe": {
+                "recipeCode": 20,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 6,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 21,
+            "price": 70,
+            "honor": 1,
+            "grade": 1,
+            "name": "요정의 글러브",
+            "Image": "FairyGlove",
+            "description": "요정의 기운이 깃들어 있는 글러브다.",
+            "recipe": {
+                "recipeCode": 21,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 6,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 22,
+            "price": 110,
+            "honor": 1,
+            "grade": 1,
+            "name": "요정의 방패",
+            "Image": "FairyShield",
+            "description": "요정의 기운이 깃들어 있는 방패다.",
+            "recipe": {
+                "recipeCode": 22,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 6,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 23,
+            "price": 110,
+            "honor": 1,
+            "grade": 1,
+            "name": "요정의 갑옷",
+            "Image": "FairyChestplate",
+            "description": "요정의 기운이 깃들어 있는 갑옷이다.",
+            "recipe": {
+                "recipeCode": 23,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 6,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 24,
+            "price": 100,
+            "honor": 2,
+            "grade": 2,
+            "name": "저항의 부츠",
+            "Image": "ResBoots",
+            "description": "상태이상을 막아주는 올려주는 부츠다.",
+            "recipe": {
+                "recipeCode": 24,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 7,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 25,
+            "price": 125,
+            "honor": 2,
+            "grade": 2,
+            "name": "저항의 글러브",
+            "Image": "ResGlove",
+            "description": "상태이상을 막아주는 올려주는 글러브다.",
+            "recipe": {
+                "recipeCode": 25,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 7,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 26,
+            "price": 150,
+            "honor": 2,
+            "grade": 2,
+            "name": "저항의 방패",
+            "Image": "ResShield",
+            "description": "상태이상을 막아주는 올려주는 방패다.",
+            "recipe": {
+                "recipeCode": 26,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 7,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 27,
+            "price": 150,
+            "honor": 2,
+            "grade": 2,
+            "name": "저항의 갑옷",
+            "Image": "ResChestplate",
+            "description": "상태이상을 막아주는 올려주는 갑옷이다.",
+            "recipe": {
+                "recipeCode": 27,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 7,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 28,
+            "price": 330,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 부츠",
+            "Image": "DragonBoots",
+            "description": "강력한 드래곤의 비늘로 만든 부츠다.",
+            "recipe": {
+                "recipeCode": 28,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 29,
+            "price": 360,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 글러브",
+            "Image": "DragonGlove",
+            "description": "강력한 드래곤의 비늘로 만든 글러브이다.",
+            "recipe": {
+                "recipeCode": 29,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 30,
+            "price": 520,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 방패",
+            "Image": "DragonShield",
+            "description": "강력한 드래곤의 비늘로 만든 방패이다.",
+            "recipe": {
+                "recipeCode": 30,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 31,
+            "price": 520,
+            "honor": 3,
+            "grade": 3,
+            "name": "드래곤의 갑옷",
+            "Image": "DragonChestPlate",
+            "description": "강력한 드래곤의 비늘로 만든 갑옷이다.",
+            "recipe": {
+                "recipeCode": 31,
+                "ingredientArray": [
+                    {
+                        "code": 0,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 5,
+                        "needCount": 3
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 50,
+            "price": 30,
+            "honor": 0,
+            "grade": 0,
+            "name": "회복포션",
+            "Image": "RecoveryPotion",
+            "description": "다친 상처를 치유해주는 회복포션이다.",
+            "recipe": {
+                "recipeCode": 50,
+                "ingredientArray": [
+                    {
+                        "code": 8,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 9,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 4,
+                        "needCount": 0
+                    }
+]
+            }
+        },
+        {
+            "code": 51,
+            "price": 130,
+            "honor": 1,
+            "grade": 1,
+            "name": "마나포션",
+            "Image": "ManaPotion",
+            "description": "부족한 마나를 채워주는 마나포션이다.",
+            "recipe": {
+                "recipeCode": 51,
+                "ingredientArray": [
+                    {
+                        "code": 8,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 9,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 11,
+                        "needCount": 1
+                    }
+]
+            }
+        },
+        {
+            "code": 52,
+            "price": 165,
+            "honor": 3,
+            "grade": 3,
+            "name": " 해독포션",
+            "Image": "AntidotePotion",
+            "description": "상태이상을 해소해주는 해독포션이다.",
+            "recipe": {
+                "recipeCode": 52,
+                "ingredientArray": [
+                    {
+                        "code": 8,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 9,
+                        "needCount": 1
+                    },
+                    {
+                        "code": 10,
+                        "needCount": 1
+                    }
+]
+            }
         }
     ]
 }

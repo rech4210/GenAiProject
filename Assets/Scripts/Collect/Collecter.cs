@@ -2,39 +2,35 @@ using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class Collecter : MonoBehaviour
+public class Collecter : MonoBehaviour, ISetInfo
 {
     CuriosCollect curiosCollect = null;
     Collecterinfo info = null;
     public TextMeshProUGUI textMeshProUGUI = null;
 
-
-    public void Start()
+    public void Init()
     {
-        if(this.gameObject.transform.parent.TryGetComponent(out CuriosCollect curiosCollect))
+        if (this.gameObject.transform.parent.TryGetComponent(out CuriosCollect curiosCollect))
         {
             this.curiosCollect = curiosCollect;
             info = curiosCollect.GetCollectInfo();
+            Debug.Log(info);
         }
         else
         {
             Debug.Log("collecter null!");
         }
-        SetCollecter();
-
-
+        SetTargetInfo();
     }
 
-    //배경, 
-    void SetCollecter()
+    public void SetTargetInfo()
     {
         if (this.transform.GetChild(1).GetChild(0)
             .TryGetComponent<TextMeshProUGUI>(out TextMeshProUGUI name))
         {
             name.text = info.collecterName;
         }
-        else Debug.LogError("Not Setted Object You're null!!");
+        else Debug.Log ("Not Setted Object You're null!!");
 
         if (this.transform.GetChild(2).GetChild(0)
             .TryGetComponent<TextMeshProUGUI>(out TextMeshProUGUI dialouge))
@@ -43,7 +39,7 @@ public class Collecter : MonoBehaviour
             DialgueManager.Instance.SetTMP(textMeshProUGUI);
             DialgueManager.Instance.StartDialogue(info.collecterText);
         }
-        else Debug.LogError("Not Setted Object You're null!!");
+        else Debug.Log("Not Setted Object You're null!!");
 
 
         if (this.transform.GetChild(1).TryGetComponent<Image>(out Image collecterImage))
@@ -74,13 +70,5 @@ public class Collecter : MonoBehaviour
             Debug.Log("wrong Path in child backImage");
             //수정하기 해상도 관련해서요
         }
-        //this.transform.GetChild(0).GetChild(1).GetComponent<TextMeshPro>().text = cardInfo.BuffEnumName;
-        //this.transform.GetChild(2).GetComponent<TextMeshPro>().text = cardInfo.information;
-        //this.transform.GetChild(3).GetComponent<TextMeshPro>().text = cardInfo.description;
-
-        //this.GetComponent<Image>().sprite = cardInfo.FRImage;
-        //data = buffManager.SetBuffData(buffCode, stat);
-        //Debug.Log(stat);
     }
-
 }

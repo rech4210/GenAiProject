@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Gears : Item
 {
-    public Gears(int code, int price, int honor, int grade, string imager) : base(code, price, honor, grade, imager)
+    public Gears(int code, int price, int honor, int grade, string name, string image, Recipe recipe) : base(code, price, honor, grade, name, image, recipe)
     {
-        
     }
 }
